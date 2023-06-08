@@ -1,0 +1,42 @@
+
+.container{
+    background-color: gainsboro;
+    background-image: linear-gradient(90deg, #aae0e7 0%, #f8e3f8 100%);
+
+  
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color:black;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 20px;
+
+}
+.world img{ 
+    width: 72px;
+}
+.foodd{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    argin-left: 10%; 
+}
+.foodd img{
+    width: 80%;
+    height: 50vh;
+    padding-top: 20px;
+    border-radius: 20%;
+   /* border: solid black; */
+}
+#log{
+    color: yellow;
+    font-size: 21px;
+
+}

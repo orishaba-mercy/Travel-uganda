@@ -1,0 +1,70 @@
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-color: gainsboro;
+    background-image: linear-gradient(90deg, #aae0e7 0%, #f8e3f8 100%);
+
+  
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgb(34, 31, 31);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 20px;
+
+}
+.world img{ 
+    width: 62px;
+    /* height: 10px; */
+}
+.tribes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;  
+}
+.tribes img{
+    width: 80%;
+    height: 50vh;
+    padding-top: 20px;
+    border-radius: 30%;
+}
+.footer{
+    display: flex;
+    gap: 14px;
+    background-color: black;
+    color: white;
+    font-size: 20px; 
+    
+}
+.subscribe{
+    display: flex;
+    gap: 30%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+     margin-left: 70px;  
+}
+.subscribe button{
+    padding: 4%;
+    width: 300px;
+    background-color: #ecc515;
+}
+.spans{
+    color: #ecc515;
+}
+#log{
+    color: yellow;
+    font-size: 21px;
+
+}
